@@ -5,7 +5,7 @@ from functools import lru_cache
 
 from pipeline.core.context.action_context import ActionContext
 
-PIPELINE_CORE_ACTION_ = "watchmen.pipeline.core.action."
+PIPELINE_CORE_ACTION_ = "pipeline.core.action."
 
 log = logging.getLogger("app." + __name__)
 

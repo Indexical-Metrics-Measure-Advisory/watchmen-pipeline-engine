@@ -1,7 +1,7 @@
 from base64 import b64encode, b64decode
 from typing import Dict
 
-from crypto.Cipher import AES
+from Crypto.Cipher import AES
 
 
 def encrypt(value: str, params: Dict):

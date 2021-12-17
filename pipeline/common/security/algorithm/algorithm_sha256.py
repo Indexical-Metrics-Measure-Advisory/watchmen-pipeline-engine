@@ -1,5 +1,5 @@
 # from Crypto.Hash import SHA256
-from crypto.Hash import SHA256
+from Crypto.Hash import SHA256
 
 
 def encrypt(value_, params):

@@ -5,7 +5,6 @@ from model.model.pipeline.trigger_type import TriggerType
 from pipeline.core.context.pipeline_context import PipelineContext
 from pipeline.core.worker.pipeline_worker import run_pipeline
 from pipeline.storage.pipeline_storage import load_pipeline_by_topic_id
-##TODO get topic
 from pipeline.topic.storage.topic_schema_storage import get_topic
 
 log = logging.getLogger("app." + __name__)

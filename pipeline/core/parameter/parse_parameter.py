@@ -5,7 +5,7 @@ from typing import List
 import pandas as pd
 from model.model.report.column import Operator
 
-from pipeline.common.snowflake.snowflake import get_surrogate_key
+from watchmen_boot.guid.snowflake import get_surrogate_key
 from pipeline.common.utils.data_utils import build_collection_name
 from pipeline.core.by.parse_on_parameter import __week_number_of_month
 from pipeline.core.case.function.utils import parse_constant_expression, AMP, FUNC, \

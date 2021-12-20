@@ -1,8 +1,8 @@
 from model.model.common.pagination import Pagination
 from model.model.common.user import User
-from storage.model.data_source import DataSource
+from watchmen_boot.storage.model.data_source import DataSource
 
-from pipeline.common.snowflake.snowflake import get_surrogate_key
+from watchmen_boot.guid.snowflake import get_surrogate_key
 from pipeline.common.utils.data_utils import check_fake_id
 from pipeline.config.config import settings
 from pipeline.database.find_storage_template import find_storage_template

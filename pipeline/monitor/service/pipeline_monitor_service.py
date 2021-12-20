@@ -6,7 +6,7 @@ from model.model.topic.topic import Topic
 
 import pipeline.index
 from pipeline.common.constants import pipeline_constants
-from pipeline.common.snowflake.snowflake import get_surrogate_key
+from watchmen_boot.guid.snowflake import get_surrogate_key
 from pipeline.database.topic.adapter.topic_storage_adapter import get_template_by_datasource_id
 from pipeline.monitor.model.pipeline_monitor import PipelineRunStatus
 from pipeline.core.parameter.utils import check_and_convert_value_by_factor

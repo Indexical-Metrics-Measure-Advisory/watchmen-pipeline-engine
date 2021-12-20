@@ -9,7 +9,7 @@ from model.model.pipeline.trigger_type import TriggerType
 
 import pipeline
 from pipeline.common.constants import pipeline_constants
-from pipeline.common.snowflake.snowflake import get_surrogate_key
+from watchmen_boot.guid.snowflake import get_surrogate_key
 from pipeline.common.utils.data_utils import get_id_name_by_datasource
 from pipeline.config.config import settings
 from pipeline.database.datasource.container import data_source_container

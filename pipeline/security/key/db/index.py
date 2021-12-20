@@ -1,4 +1,4 @@
-from pipeline.common.cache.cache_manage import cacheman
+from watchmen_boot.cache.cache_manage import cacheman
 from pipeline.database.find_storage_template import find_storage_template
 
 from pipeline.security.key.db.key_model import KeyStore

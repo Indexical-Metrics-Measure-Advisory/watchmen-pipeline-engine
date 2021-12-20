@@ -5,7 +5,7 @@ from enum import Enum
 from model.model.common.data_page import DataPage
 from model.model.common.user import SUPER_ADMIN, User
 from pydantic.tools import lru_cache
-from storage.model.data_source import DataSource
+from watchmen_boot.storage.model.data_source import DataSource
 
 from pipeline.common.constants.parameter_constants import RAW
 from pipeline.config.config import settings

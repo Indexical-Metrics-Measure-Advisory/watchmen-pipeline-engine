@@ -1,4 +1,4 @@
-from pipeline.common.snowflake.snowflake import get_surrogate_key
+from watchmen_boot.guid.snowflake import get_surrogate_key
 from pipeline.core.dependency.graph.label import Label
 from pipeline.core.dependency.graph.node import Node
 from pipeline.core.dependency.graph.property import Property

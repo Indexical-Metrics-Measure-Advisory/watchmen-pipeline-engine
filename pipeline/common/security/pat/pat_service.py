@@ -2,7 +2,7 @@ from typing import List
 
 from pipeline.common.security.pat.pat_model import PersonAccessToken
 from pipeline.common.security.pat.token_utils import create_token
-from pipeline.common.snowflake.snowflake import get_surrogate_key
+from watchmen_boot.guid.snowflake import get_surrogate_key
 from pipeline.database.find_storage_template import find_storage_template
 
 storage_template = find_storage_template()

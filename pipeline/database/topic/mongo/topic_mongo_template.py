@@ -11,12 +11,11 @@ from storage.storage.exception.exception import OptimisticLockError, InsertConfl
 
 from pipeline.common.constants.parameter_constants import RAW
 from pipeline.common.utils.data_utils import build_data_pages, build_collection_name
-# from pipeline.database.find_storage_template import find_storage_template
 from pipeline.database.topic.topic_storage_interface import TopicStorageInterface
 
 log = logging.getLogger("app." + __name__)
 
-# storage_template = find_storage_template()
+
 
 
 # @singleton

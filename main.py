@@ -1,4 +1,4 @@
 from pipeline.index import trigger_pipeline
 
 if __name__ == '__main__':
-    trigger_pipeline("code",{},{})
+    trigger_pipeline("code", {}, {})
